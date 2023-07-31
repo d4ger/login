@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/styles.css">
+    <title>Document</title>
+</head>
+<body class="bg-[#fafafa]">
+    <section class="flex items-center justify-center min-h-screen bg-gradient-to-r from-gray-200 to-gray-50">
+        <div class="relative flex flex-col m-2 space-y-2 h-auto w-auto bg-white shadow-2xl rounded-2xl md:flex-row md:space-y-0">
+            <!-- left -->
+            <div class="flex flex-col justify-center text-cen w-96 max-w-96 p-4 md:p-8">
+                <img class="mx-auto p-2 w-64" src="./assets/logo-horizontal.svg" alt="logo">
+                <div class="text-center">
+                    <p class="mb-3 text-2xl text-gray-600 font-bold">Intranet</p>
+                    <p class="font-normal text-gray-600 mb-4">Ingresa tus datos para iniciar sesión.</p>
+                </div>
+                <form>
+                    <div class="w-fu">
+                        <p class="label mb-3">Nombre de usuario</p>
+                        <input type="text" class="bg-white border border-gray-300 text-gray-900 text-lg rounded-lg mb-3 focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="usuario">
+                        <p class="label mb-3">Contraseña</p>
+                        <input type="text" class="bg-white border border-gray-300 text-gray-900 text-lg rounded-lg mb-4 focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="contraseña">
+                        <label>
+                            <input type="checkbox">
+                            <span class="text-gray-600">Recordar contraseña</span>
+                        </label>
+                        <button class="px-4 py-3 bg-[#3D5775] w-full my-4 rounded-md text-white outline-none shadow-lg transform active:scale-75 transition-transform">Iniciar Sesión</button>
+                        <div class="text-center">
+                            <a href="" class="text-sky-700">Olvidé mi contraseña</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- right -->
+            <div class="relative max-w-xl overflow-hidden bg-cover bg-no-repeat">
+                <img src="./assets/fondosieh.jpg" class="w-[400px] h-full rounded-r-2xl hidden md:block object-cover hover:scale-110 transition duration-500 ease-in-out">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
